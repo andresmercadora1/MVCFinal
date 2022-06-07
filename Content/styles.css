@@ -1,0 +1,43 @@
+﻿.logo {
+    background-image: url('../img/istockphoto-1225430867-170667a.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo img{
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.ejemplo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content-home {
+    border-radius: 5px;
+    margin-top: 70px;
+    height: 130px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+table {
+    color: #fff;
+    text-align: center;
+}
+
+.marginTop {
+    margin: 20px 0 !important;
+}
+
+h1, h2, h3,
+dt,
+dd,
+.control-label {
+    color: #fff;
+}
+
