@@ -25,8 +25,14 @@
     background-color: #ffffff;
 }
 
-table {
-    color: #fff;
+.table {
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    background-color: #eee !important;
+}
+
+th {
     text-align: center;
 }
 
@@ -34,10 +40,13 @@ table {
     margin: 20px 0 !important;
 }
 
-h1, h2, h3,
+h1, h2, h3, h4,
 dt,
 dd,
 .control-label {
-    color: #fff;
+    margin-top: 20px;
+    color: #fff !important;
 }
+
+    
 

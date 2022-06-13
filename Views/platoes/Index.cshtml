@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Index</h2>  
 
 <p class="marginTop">
     @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
@@ -77,9 +77,9 @@
             @Html.DisplayFor(modelItem => item.receta.fuente_receta)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cod_plato }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cod_plato }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cod_plato })
+            @Html.ActionLink(" ", "Edit", new { id = item.cod_plato }, new { @class = "fa-solid fa-pen-to-square btn btn-warning" })
+            @Html.ActionLink(" ", "Details", new { id = item.cod_plato }, new { @class = "fa-solid fa-eye btn btn-success" })
+            @Html.ActionLink(" ", "Delete", new { id = item.cod_plato }, new { @class = "fa-solid fa-trash btn btn-danger" })
         </td>
     </tr>
 }

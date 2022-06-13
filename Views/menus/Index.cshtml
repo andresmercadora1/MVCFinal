@@ -47,9 +47,9 @@
             @Html.DisplayFor(modelItem => item.receta.fuente_receta)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cod_menu }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cod_menu }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cod_menu })
+            @Html.ActionLink(" ", "Edit", new { id = item.cod_menu }, new { @class = "fa-solid fa-pen-to-square btn btn-warning" })
+            @Html.ActionLink(" ", "Details", new { id = item.cod_menu }, new { @class = "fa-solid fa-eye btn btn-success" })
+            @Html.ActionLink(" ", "Delete", new { id = item.cod_menu }, new { @class = "fa-solid fa-trash btn btn-danger" })
         </td>
     </tr>
 }
